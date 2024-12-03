@@ -1,0 +1,21 @@
+version: '3.9'
+services:
+  springboot-app:
+    image: openjdk:22-jdk-slim
+    container_name: e-commerce_springboot_app
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./target/store-0.0.1-SNAPSHOT.jar:/app/store-0.0.1-SNAPSHOT.jar
+    working_dir: /app
+    command: ["java", "-jar", "store-0.0.1-SNAPSHOT.jar"]
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/storedb
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: password
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    external: true

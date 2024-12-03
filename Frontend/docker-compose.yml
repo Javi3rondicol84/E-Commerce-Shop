@@ -1,0 +1,17 @@
+
+version: '3.9'
+
+services:
+  apache:
+    image: httpd:latest
+    container_name: apache_frontend
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/usr/local/apache2/htdocs/
+    networks:
+      - frontend_network
+
+networks:
+  frontend_network:
+    driver: bridge

@@ -1,0 +1,122 @@
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (1, 'Electronics', 'Smartphone with 6GB RAM and 128GB storage', 299.99, 'Smartphone A1', 50);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (2, 'Electronics', 'Laptop with Intel i7 processor and 16GB RAM', 799.99, 'Laptop Pro', 30);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (3, 'HomeAppliances', 'Refrigerator with 300L capacity', 499.99, 'CoolFridge 300', 20);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (4, 'HomeAppliances', 'Washing machine with 8kg capacity', 399.99, 'WashMaster 8kg', 15);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (5, 'Books', 'Science fiction novel by popular author', 19.99, 'Space Odyssey', 100);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (6, 'Books', 'Cookbook with over 200 recipes', 25.99, 'Gourmet Cooking', 70);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (7, 'Clothing', 'Men\'s casual t-shirt, size L', 14.99, 'Casual Tee', 150);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (8, 'Clothing', 'Women\'s summer dress, size M', 29.99, 'Summer Dress', 80);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (9, 'Toys', 'Remote control car with rechargeable battery', 49.99, 'RC Car', 60);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (10, 'Toys', 'Building blocks set for kids', 34.99, 'Block Set', 120);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (11, 'Sports', 'Yoga mat with non-slip surface', 19.99, 'Yoga Mat', 200);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (12, 'Sports', 'Basketball with official size', 29.99, 'Official Basketball', 90);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (13, 'Furniture', 'Office chair with ergonomic design', 99.99, 'Ergo Chair', 40);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (14, 'Furniture', 'Wooden dining table for 6 people', 299.99, 'Dining Table', 10);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (15, 'Beauty', 'Facial cleanser with natural ingredients', 15.99, 'Natural Cleanser', 200);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (16, 'Beauty', 'Moisturizing lotion with SPF 30', 24.99, 'Moisture Lotion', 150);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (17, 'Automotive', 'Car vacuum cleaner with high suction power', 39.99, 'CarVac Pro', 50);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (18, 'Automotive', 'All-season car cover for sedans', 59.99, 'Car Cover', 30);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (19, 'Gardening', 'Set of garden tools with ergonomic handles', 25.99, 'Garden Tool Set', 60);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (20, 'Gardening', 'Portable greenhouse with UV protection', 129.99, 'Greenhouse Pro', 20);
+
+
+-- Electronics
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (21, 'Electronics', 'Wireless earbuds with noise cancellation', 129.99, 'NoiseBuds', 70);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (22, 'Electronics', '4K Ultra HD Smart TV, 55-inch', 599.99, 'UltraView 55', 40);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (23, 'Electronics', 'Bluetooth speaker with 10-hour battery life', 49.99, 'SoundWave', 100);
+
+-- Home Appliances
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (24, 'Home Appliances', 'Microwave oven with grill function', 199.99, 'QuickHeat 900', 35);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (25, 'Home Appliances', 'Air purifier with HEPA filter', 149.99, 'PureAir', 50);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (26, 'Home Appliances', 'Electric kettle with temperature control', 49.99, 'BoilMaster', 80);
+
+-- Books
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (27, 'Books', 'Fantasy novel set in a magical world', 18.99, 'Magic Realm', 120);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (28, 'Books', 'Self-help book on personal development', 22.99, 'The Best You', 95);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (29, 'Books', 'Historical fiction novel set in ancient Rome', 20.99, 'Roman Conquest', 80);
+
+-- Clothing
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (30, 'Clothing', 'Women\'s winter coat, size M', 89.99, 'WinterWarm', 60);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (31, 'Clothing', 'Men\'s formal shirt, size L', 39.99, 'Formal Elegance', 100);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (32, 'Clothing', 'Children\'s pyjama set, size S', 19.99, 'Comfy PJs', 80);
+
+-- Toys
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (33, 'Toys', 'Puzzle game with 500 pieces', 14.99, '500-Piece Puzzle', 200);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (34, 'Toys', 'Dollhouse with furniture set', 69.99, 'Dream Dollhouse', 40);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (35, 'Toys', 'Board game for family fun', 24.99, 'Family Game Night', 150);
+
+-- Sports
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (36, 'Sports', 'Running shoes with cushioned sole, size 10', 79.99, 'RunFast', 120);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (37, 'Sports', 'Tennis racket with cover', 59.99, 'Pro Tennis Racket', 80);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (38, 'Sports', 'Set of dumbbells, 10kg each', 49.99, 'Home Gym Set', 90);
+
+-- Furniture
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (39, 'Furniture', 'Wooden bookshelf with 5 shelves', 129.99, 'Classic Bookshelf', 30);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (40, 'Furniture', 'Modern coffee table with glass top', 199.99, 'GlassTop Coffee Table', 25);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (41, 'Furniture', 'Queen-size bed frame with headboard', 299.99, 'Comfort Bed', 20);
+
+-- Beauty
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (42, 'Beauty', 'Anti-aging serum with vitamin C', 49.99, 'Youth Serum', 150);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (43, 'Beauty', 'Hair conditioner for dry hair', 14.99, 'Silky Smooth', 100);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (44, 'Beauty', 'Makeup brush set with 10 pieces', 24.99, 'Pro Brush Set', 70);
+
+-- Automotive
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (45, 'Automotive', 'Car phone mount with 360-degree rotation', 19.99, 'PhoneMount 360', 80);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (46, 'Automotive', 'Car wash kit with microfiber towels', 29.99, 'CleanCar Kit', 60);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (47, 'Automotive', 'Portable jump starter for car battery', 59.99, 'JumpStart Pro', 40);
+
+-- Gardening
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (48, 'Gardening', 'Seed starter kit with 50 pots', 19.99, 'GreenThumb Kit', 100);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (49, 'Gardening', 'Automatic drip irrigation system', 39.99, 'WaterSave Irrigation', 30);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (50, 'Gardening', 'Gardening gloves with claw tips', 14.99, 'Claw Gloves', 150);
+
+
+-- Electronics
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (51, 'Electronics', 'Smartwatch with heart rate monitor', 149.99, 'HealthWatch', 75);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (52, 'Electronics', 'Digital camera with 20MP sensor', 299.99, 'CapturePro', 50);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (53, 'Electronics', 'Gaming console with 2 controllers', 399.99, 'GameStation', 40);
+
+-- HomeAppliances
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (54, 'HomeAppliances', 'Cordless vacuum cleaner with HEPA filter', 199.99, 'CleanMate', 60);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (55, 'HomeAppliances', 'Electric pressure cooker with 10 presets', 99.99, 'QuickCook', 45);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (56, 'HomeAppliances', 'Blender with 5-speed settings', 59.99, 'BlendMaster', 80);
+
+-- Books
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (57, 'Books', 'Thriller novel with unexpected twists', 16.99, 'Twist of Fate', 130);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (58, 'Books', 'Guide to mindfulness and meditation', 19.99, 'Mindful Living', 85);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (59, 'Books', 'Biography of a famous scientist', 22.99, 'Life of Genius', 75);
+
+-- Clothing
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (60, 'Clothing', 'Unisex hoodie, size XL', 34.99, 'Comfy Hoodie', 90);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (61, 'Clothing', 'Women\'s running leggings, size M', 29.99, 'RunFlex', 110);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (62, 'Clothing', 'Children\'s raincoat, size S', 24.99, 'RainyDay', 70);
+
+-- Toys
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (63, 'Toys', 'Educational toy set for toddlers', 39.99, 'EduPlay', 90);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (64, 'Toys', 'Plush toy with interactive features', 24.99, 'CuddleBuddy', 140);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (65, 'Toys', 'Action figure set with accessories', 29.99, 'Hero Set', 80);
+
+-- Sports
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (66, 'Sports', 'Yoga block set with strap', 19.99, 'YogaKit', 120);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (67, 'Sports', 'Cycling helmet with LED light', 49.99, 'CycleSafe', 50);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (68, 'Sports', 'Fitness tracker with GPS', 79.99, 'FitTrack', 70);
+
+-- Furniture
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (69, 'Furniture', 'Ergonomic desk chair with lumbar support', 159.99, 'Office Comfort', 40);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (70, 'Furniture', 'TV stand with storage compartments', 129.99, 'Media Stand', 30);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (71, 'Furniture', 'Patio table set with 4 chairs', 299.99, 'Outdoor Set', 20);
+
+-- Beauty
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (72, 'Beauty', 'Lipstick set with 5 colors', 29.99, 'ColorPop', 80);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (73, 'Beauty', 'Hand cream with shea butter', 12.99, 'SoftHands', 150);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (74, 'Beauty', 'Face mask with charcoal and clay', 19.99, 'Detox Mask', 100);
+
+-- Automotive
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (75, 'Automotive', 'Car seat organizer with multiple pockets', 29.99, 'Seat Organizer', 70);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (76, 'Automotive', 'Sunshade for windshield', 14.99, 'SunBlock', 100);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (77, 'Automotive', 'Tire pressure gauge with digital display', 19.99, 'TireCheck', 60);
+
+-- Gardening
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (78, 'Gardening', 'Solar-powered garden lights, pack of 8', 39.99, 'GardenGlow', 50);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (79, 'Gardening', 'Garden hose with adjustable nozzle', 24.99, 'FlexHose', 90);
+INSERT INTO `product`(`product_id`, `category`, `description`, `price`, `product_name`, `stock`) VALUES (80, 'Gardening', 'Compost bin with easy access', 49.99, 'EcoCompost', 30);

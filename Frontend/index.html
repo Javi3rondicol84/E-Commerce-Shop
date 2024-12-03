@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio | E-CommerceShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css" type="text/css">
+    <link rel="icon" href="/files/mainIco.png">
+</head>
+<body>
+    <header>
+        <div class="header-items">
+            <div class="logo">
+                <a href="/index.html"><img src="/files/mainIco.png"></a>
+            </div>
+            <div class="search-button-div">
+                <div class="drowdown-menu">
+                    <p>categorias</p>
+                    <button class="dropdownLiButton"><img src="/files/down-user.png"></button>
+                </div>
+
+                <section class="categoriesMenuDropdown hidden">
+                    <ul class="categoriesLi">
+
+                    </ul>
+                </section>
+
+                <div class="search-input">
+                    <form>
+                        <input placeholder="Buscar productos, marcas, etc" type="text" id="searchValue">
+                        <button id="searchButton" type="submit"><img src="/files/search.png"></button>
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="cart-button">
+                <button><a href="/pages/cart.html"><img src="/files/shopping-cart.png"></a></button>
+            </div>
+        </div>
+        <nav>
+            <div class="nav-first-part">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                    </ul>
+            </div>
+            <div class="nav-first-second">
+                <ul>
+                    <li><a href="/pages/login.html">Iniciar sesion</a></li>
+                    <li><a href="/pages/register.html">Registrarse</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="all-carousels"></section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <!-- Información de la Empresa -->
+                <div class="footer-section company-info">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Somos una tienda en línea comprometida con ofrecer productos de calidad y un excelente servicio al cliente.</p>
+                    <p>&copy; 2024 E-commerce. Todos los derechos reservados.</p>
+                </div>
+
+                <!-- Categorías de Productos -->
+                <div class="footer-section product-categories">
+                    <h3>Categorías</h3>
+                    <ul>
+                        <li><a href="#">Electrónica</a></li>
+                        <li><a href="#">Ropa</a></li>
+                        <li><a href="#">Hogar y Cocina</a></li>
+                        <li><a href="#">Juguetes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+    </main>
+
+
+    <script src="/js/main.js"></script>
+    <script src="/js/carouselsHome.js"></script>
+
+
+</body>
+</html>

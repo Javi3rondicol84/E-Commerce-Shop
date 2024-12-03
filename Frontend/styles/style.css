@@ -1,0 +1,950 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #660015;
+}
+
+:root {
+    --white-main-color: #F0EBEB;
+    --red-main-color: #880015;
+    --red-secondary-color: #D44B4B;
+    --red-terciary-color: #F41639;
+    --gray-main-color: #F7EBEB;
+    --black-main-color: #000;
+    --card-main-color: #FFFBEB;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+body {
+    background-color: var(--white-main-color);
+}
+/* nav - header section */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", system-ui;
+    font-weight: 300;
+    font-style: italic;
+}
+
+header div {
+    background-color: var(--white-main-color);
+    height: 5.25em; /* Reducido 1em */
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 3.8em; /* Reducido 1em */
+    height: 4em; /* Reducido 1em */
+    margin-left: 1.5em; /* Ajustado */
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* dropdown menu and search button-input nav section */
+.search-button-div {
+    width: 35em; /* Ajustado proporcionalmente */
+    height: 2.62em; /* Reducido 1em */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* dropdown menu categories nav */
+.search-button-div .drowdown-menu {
+    width: 10.7em; /* Reducido proporcionalmente */
+    font-size: 1.28em; /* Reducido 1em */
+    background-color: var(--red-main-color);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+
+}
+
+.search-button-div .drowdown-menu p {
+    color: var(--white-main-color);
+    font-size: 1.3em; /* Reducido ligeramente */
+}
+
+.search-button-div .drowdown-menu button {
+    width: 1.2em;
+    height: 1.8em;
+    border: 0;
+    background-color: var(--red-main-color);
+}
+
+.search-button-div .drowdown-menu button img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* search button nav */
+
+.search-button-div .search-input {
+    width: 21.25em;
+    height: 2.66em;
+}
+
+.search-button-div .search-input form {
+    display: flex;
+    width: 21.25em;
+    height: 2.66em;
+}
+
+.search-button-div .search-input form input {
+    width: 85%;
+    height: 100%;
+    font-size: 1.23em;
+    padding: 0 0.2em;
+}
+
+.search-button-div .search-input form button {
+    width: 15%;
+    border: 0;
+}
+
+.search-button-div .search-input form button img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* cart button nav */
+
+.cart-button {
+    width: 3.5em; /* Reducido 1em */
+    height: 3.5em; /* Reducido 1em */
+    margin-right: 1.5em; /* Ajustado */
+}
+
+.cart-button button {
+    border: 0;
+}
+
+.cart-button img {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    background-color: var(--white-main-color);
+    height: 2.5em; /* Reducido 1em */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em; /* Ajustado proporcionalmente */
+}
+
+.nav-first-part, .nav-first-second {
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.nav-first-part ul, .nav-first-second ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-first-part ul li, .nav-first-second ul li {
+    padding-left: 1.5em; /* Ajustado */
+    padding-right: 1.5em; /* Ajustado */
+}
+
+/* dropdown menu */
+
+
+.categoriesMenuDropdown {
+    background-color: var(--red-terciary-color);
+    width: 13em;
+    position: absolute;
+    left: 30%;
+    display: flex;
+    top: 10.3%;
+    height: auto;
+    z-index: 100;
+}
+
+.hidden {
+    display: none;
+}
+
+.categoriesLi {
+    list-style: none;
+}
+
+.categoriesLi li {
+    color: #fff;
+    padding: 0.5em 0 0.5em 0.5em;
+    border-radius: 1.5em;
+}
+
+
+
+
+/* main section */
+
+/* all carousels */
+
+.all-carousels {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.carousel {
+    background-color: var(--card-main-color);
+    width: 70em;
+    height: 21.56em;
+    position: relative;
+    margin-bottom: 5.5em;
+    overflow: hidden; /* Evitar que se vea fuera del contenedor */
+}
+
+
+
+
+/* btns carousel */
+
+.btn-carousel-left, .btn-carousel-right {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    border-radius: 3.125em;
+    border: 0;
+    background-color: var(--card-main-color);
+    box-shadow: 0.015em 0.015em 0.050em var(--black-main-color);
+    z-index: 10;
+}
+
+.btn-carousel-left img, .btn-carousel-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-carousel-left {
+    left: 0;
+    top: 35%;
+}
+
+.btn-carousel-right {
+    right: 0;
+    top: 35%;
+}
+
+/* cards */
+
+.cards-section {
+    margin: 0 1.45em 0 1.45em;
+}
+
+.cards-section h2 {
+    padding: 0.25em 0 0.25em 0;
+    font-weight: 450;
+    font-size: x-large;
+    padding: 0.5em 0 0.5em 0;
+}
+.cards {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Añadir transición suave */
+    width: auto;
+}
+
+.card {
+    width: 13em;
+    height: 18.25em;
+    border: 0.110em solid var(--gray-main-color);
+    margin-right: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--card-main-color);
+    border-radius: 0.415em;
+}
+
+.card .card-image {
+    width: 12.37em;
+    height: 8.68em;
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.card .card-product-name {
+    width: 12.37em;
+    font-size: 1em;
+}
+
+.card .card-price-amount-product {
+    display: flex;
+    width: 12.37em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .card-price-amount-product .price-card {
+    width: 3.94em;
+    height: 2em;
+}
+
+.card .card-price-amount-product .price-card p {
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--red-main-color);
+    font-weight: normal;
+}
+
+.card .card-price-amount-product .amount-products-card {
+    width: 5.6em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.card .card-price-amount-product .amount-products-card button {
+    border: 0;
+    width: 1.75em;
+    height: 1.75em;
+    color: var(--white-main-color);
+    background-color: var(--red-main-color);
+    border-radius: 0.75em;
+}
+
+.card .card-price-amount-product .amount-products-card p {
+    font-size: large;
+    margin: 0 0.5em 0 0.5em;
+}
+
+
+
+
+.card .card-buttons {
+    width: 12.37em;
+    height: 2.56em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .card-buttons .add-to-cart-btn {
+    width: 3.5em;
+    height: 2.56em;
+}
+
+.card .card-buttons .add-to-cart-btn button {
+    border: 0;
+    width: 3.5em;
+    height: 2.56em;
+
+}
+
+.card .card-buttons .add-to-cart-btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.card .card-buttons .buy-btn {
+    width: 5.25em;
+    height: 2.56em;
+}
+
+.card .card-buttons .buy-btn button {
+    background-color: var(--red-main-color);
+    border-radius: 0.75em;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-size: 1em;
+    color: var(--white-main-color);
+    box-shadow: 0.125em 0.125em 0.5em #000000;
+}
+
+
+
+/* _______________________________________________________________  */
+
+/* Authentication form */
+
+.authentication-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.authentication-form div {
+    width: 35.125em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.authentication-form div div {
+    text-align: center;
+}
+
+.authentication-form div div h1 {
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+
+
+.authentication-form div form {
+    display: flex;
+    flex-direction: column;
+    width: 35.125em;
+}
+
+.authentication-form div form label {
+    font-weight: 450;
+    font-size: xx-large;
+    margin-bottom: 0.15em;
+}
+
+.authentication-form div form input {
+    width: 35.125em;
+    height: 2.8em;
+    font-size: large;
+    margin-bottom: 1em;
+    border: 0.15em solid var(--red-terciary-color);
+}
+
+.sessionForm {
+    background-color: var(--red-main-color);
+    border-radius: 1em;
+    width: 10em;
+    height: 4em;
+    border: 0;
+    color: var(--white-main-color);
+    box-shadow: 0.125em 0.125em 0.5em #000000;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.sessionForm p {
+    display: inline-block;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.googleSessionForm {
+    margin-top: 1em;
+    width: 5.5em;
+    height: 4em;
+    margin-bottom: 1em;
+    border: 0;
+}
+
+.googleSessionForm img {
+    width: 100%;
+    height: 100%;
+}
+
+.register-login-message-link {
+    font-size: 1.5em;
+}
+
+.register-login-message-link a {
+    color: var(--red-secondary-color);
+}
+
+/* captcha button */
+
+.captchaButton {
+    width: auto;
+    height: 4em;
+    background-color: rgba(255,168,86,0.89);
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.captchaClick {
+    width: 1em;
+    height: 3em;
+    background-color: var(--white-main-color);
+    border: 0.2em solid var(--black-main-color);
+}
+
+.captchaText {
+    display: inline-block;
+    width: 2em;
+    font-size: medium;
+}
+
+.captcha-icon {
+    width: 1.25em;
+    height: 3.25em;
+}
+
+.captcha-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+/* cart section - items (FALTA MEJORAR)*/
+
+
+
+/* Estilo general de la sección del carrito */
+.cartSection, .productsPurchaseAside {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    gap: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo de los items del carrito */
+.cartItems, .productsPurchaseItems {
+    flex: 2;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.cartItems::-webkit-scrollbar {
+    width: 8px;
+}
+
+.cartItems::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo del resumen de la compra */
+.purchaseSummary {
+    flex: 1;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Títulos dentro del resumen de compra */
+.purchaseSummary h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.purchaseSummary h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* Texto del total de la compra */
+#totalPurchase {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #e74c3c;
+    margin-bottom: 2rem;
+}
+
+/* Botón de comprar */
+.purchaseSummary button {
+    background-color: #3498db;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.purchaseSummary button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo del contenedor de cada ítem del carrito */
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.cartItem:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el contenedor del nombre del producto, botones y precio */
+.titleProductCart {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 2;
+}
+
+.titleProductCart h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.titleProductCart p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666;
+}
+
+/* Estilo para el contador de cantidad (incrementar/decrementar) */
+.titleProductCart div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.amountSelected {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+/* Botones de incremento y decremento */
+.incrementAmount, .decrementAmount {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.incrementAmount:hover, .decrementAmount:hover {
+    background-color: #2980b9;
+}
+
+/* Botón para borrar del carrito */
+.deleteFromCart {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.deleteFromCart:hover {
+    background-color: #c0392b;
+}
+
+/* Estilo para el precio */
+.titleProductCart p:last-of-type {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #2ecc71;
+}
+
+
+
+/* results page (MEJORAR ESTILO) */
+
+.results {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-height: 100em;
+    justify-content: center;
+}
+
+.moreInfoResultsAside {
+    width: 25%;
+    background-color: #d89d9d;
+}
+
+
+.resultsFound {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.resultsCards {
+    width: 100%;
+    background-color: #f9f9f9;
+    height: 100%;
+}
+
+.resultCard {
+    display: flex;
+    height: 10em;
+    margin-top: 0.8em;
+    background-color: white;
+    border: 0.2em solid #000;
+}
+
+.resultCardInfo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.resultCardInfo h2 {
+    font-size: larger;
+}
+
+.resultCardInfo p {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* purchase Form */
+
+/* Sección general */
+
+.mainPurchaseSection {
+    display: flex;
+
+
+}
+
+.productsPurchaseAside {
+    width: 50%;
+}
+
+.purchaseFormSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: #f3f4f6;
+    width: 50%;
+}
+
+/* Formulario de compra */
+.purchaseForm {
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+/* Etiquetas del formulario */
+.purchaseForm label {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 0.25em;
+}
+
+/* Campos de entrada */
+.purchaseForm input {
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    color: #333333;
+    transition: border-color 0.3s ease;
+}
+
+.purchaseForm input:focus {
+    border-color: #007bff; /* Azul para enfoque */
+    outline: none;
+}
+
+/* Botón de confirmar compra */
+#confirmPurchase {
+    padding: 0.75em;
+    background-color: #007bff; /* Azul claro */
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+#confirmPurchase:hover {
+    background-color: #0056b3; /* Azul oscuro al pasar el ratón */
+}
+
+#confirmPurchase:active {
+    background-color: #003f7f; /* Azul más oscuro al presionar */
+}
+
+/* footer */
+/* Estilo general del footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin-bottom: 1.5rem;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    color: #ffd700;
+    margin-bottom: 1rem;
+}
+
+/* Estilo de los enlaces */
+.footer-section a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.footer-section a:hover {
+    color: #ffd700;
+}
+
